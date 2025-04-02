@@ -1,4 +1,12 @@
-#Python program to find the maximum and minimum numbers in a list.
+#Python program to find the maximum and minimum numbers in a list.      
 
-list = [23,45,67,90,87,67,9,45,10]
-print(list[::-1])
+list = [34,67,89,56,90,66,93,45,20,31]
+max = list[0]
+min = list[0]
+for i in list:
+    if i>max:
+        max=i
+    if i<min:
+        min=i
+print("The maximum number from a list is:",max)
+print("The minimum number from a list is:",min)

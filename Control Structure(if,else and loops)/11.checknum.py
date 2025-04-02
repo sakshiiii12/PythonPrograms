@@ -1,13 +1,9 @@
-#Python program to find the largest among three numbers. 
+#Python program to check whether a number is positive, negative, or zero. 
 
-x = int(input("Enter the number to check:"))
-y = int(input("Enter the number to check:"))
-z = int(input("Enter the number to check:"))
-
-if((x>y) and (x>z)):
-    print("The largest among the three numbers is x")
-elif((x<y) and (y>z)):
-    print("The largest among the three numbers is y")
+num = int(input("Enter the number to check:"))
+if(num>0):
+    print("This given number is a positive number.")
+elif(num<0):
+    print("This given number is a negative number.")
 else:
-    print("The largest among the three numbers is z")
-
+    print("This given number is zero")
