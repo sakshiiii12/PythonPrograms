@@ -1,8 +1,9 @@
-#Python program to find the length of a string.
+#Python program to swap two variables without using a temporary variable.
 
-str = input("Enter the string:")
-count = 0
-for i in str:
-    count = count + 1
-print("The length of a string is:",count)
-
+a = 100
+b = 10
+print('Variable a:',a)
+print('Variable b:',b)
+a,b = b,a
+print('Swap Variable a:',a)
+print('Swap Variable b:',b)
