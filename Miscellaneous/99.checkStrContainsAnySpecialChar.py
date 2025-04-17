@@ -6,8 +6,8 @@ def contains_special_characters(str):
             return True
     return False
 
-print(contains_special_characters("Hello123"))
-print(contains_special_characters("Hello@123"))
-print(contains_special_characters("123$%"))   
-print(contains_special_characters("!@#$%^&*<>/")) 
-print(contains_special_characters(" "))   
+print("Is string contains any special characters:",contains_special_characters("Hello123"))
+print("Is string contains any special characters:",contains_special_characters("Hello@123"))
+print("Is string contains any special characters:",contains_special_characters("123$%"))   
+print("Is string contains any special characters:",contains_special_characters("!@#$%^&*<>/")) 
+print("Is string contains any special characters:",contains_special_characters(" "))   
