@@ -1,13 +1,13 @@
 #Write a python program for this pattern
 '''
 1
-12
-123
-1234
-12345
+22
+333
+4444
+55555
 '''
 
 for i in range(1,6):
     for j in range(1,i+1):
-        print(j,end=" ")
+        print(i,end=" ")
     print()
