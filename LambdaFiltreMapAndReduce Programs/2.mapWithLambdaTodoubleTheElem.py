@@ -6,4 +6,4 @@ Syntax:- map(function, iterable)
 
 nums = [1,2,3,4]
 double_the_elements = list(map(lambda x:x*2,nums))
-print(double_the_elements)
+print("The double elements of a list is:",double_the_elements)
