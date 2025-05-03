@@ -1,4 +1,5 @@
 #Create a Car class with attributes (make, model, year) and a method to display details. Create objects for 2 cars.
+#(Covers: Class, Object, Constructor)
 
 class Car:
     def __init__(self, make, model, year):
